@@ -944,7 +944,16 @@ declare let get_save_filename_ext: Function;
 declare let get_string: Function;
 declare let get_string_async: Function;
 declare let get_timer: Function;
-declare let gml_pragma: Function;
+
+/**
+ * Set the project to compile using the given command.
+ * [Open manual](https://docs.yoyogames.com/source/dadiospice/002_reference/miscellaneous/gml_pragma.html)
+ */
+declare function gml_pragma(command: "forceinline"): void;
+declare function gml_pragma(command: "global", gmlCode: string): void;
+declare function gml_pragma(command: "PNGCrush"): void;
+declare function gml_pragma(command: "Texgroup.Scale", textureGroupName: string, scaleDivisor: string): void;
+
 declare let gml_release_mode: Function;
 declare let highscore_add: Function;
 declare let highscore_clear: Function;

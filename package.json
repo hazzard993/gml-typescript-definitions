@@ -1,0 +1,14 @@
+{
+  "name": "gml-typescript-definitions",
+  "version": "1.0.0",
+  "description": "TypeScript definitions to use with the GMl transpiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hazzard993",
+  "license": "ISC"
+}

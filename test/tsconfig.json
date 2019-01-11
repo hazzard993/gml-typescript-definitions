@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "noLib": true,
+    },
+    "include": [
+        "*.ts",
+        "../include/*.ts",
+    ],
+    "luaTarget": "gml",
+}
